@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recessland</title>
+    <script type="module" src="index.js"></script>
+    <link rel="stylesheet" href="loading.css" />
+  </head>
+  <body>
+    <div class="absolute-wrap">
+      <div class="content-overlay">
+        <button id="enter">Enter</button>
+        <img src="/media/logo.webp" class="logo" />
+        <img src="/media/ticket.svg" class="ticket" />
+        <img src="/media/smiley.svg" class="smiley" />
+        <img src="/media/cup.svg" class="cup" />
+        <img src="/media/cup.svg" class="cup cup-2" />
+      </div>
+      <main>
+        <div class="background">
+          <div class="sun"></div>
+          <div class="moving-container-1">
+            <img src="/media/tent.png" alt="" />
+            <img src="/media/wheel.webp" alt="" />
+            <img src="/media/popcorn.png" alt="" />
+          </div>
+
+          <div class="moving-container-2">
+            <img src="/media/ride.webp" alt="" />
+            <img src="/media/house.png" alt="" />
+            <img src="/media/portacabin.png" alt="" />
+            <img src="/media/tree.png" alt="" />
+          </div>
+        </div>
+        <div class="train">
+          <svg
+            width="1728"
+            height="1117"
+            viewBox="0 0 1728 1117"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect class="test" x="0" y="-1116" width="1728" height="506.964" />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M1728 0H0V1117H1728V0ZM427.197 308.733C384.118 308.733 349.197 343.655 349.197 386.733V727.098C349.197 770.177 384.118 805.098 427.197 805.098H1299.54C1342.62 805.098 1377.54 770.177 1377.54 727.098V386.733C1377.54 343.655 1342.62 308.733 1299.54 308.733H427.197Z"
+              fill="#1980BE"
+            />
+            <rect
+              x="340.797"
+              y="295.859"
+              width="1046.41"
+              height="525.282"
+              rx="68"
+              stroke="#1279B8"
+              stroke-width="20"
+            />
+            <rect
+              id="rect"
+              x="348.569"
+              y="303.836"
+              width="1028.5"
+              height="506.964"
+              rx="73"
+              stroke="#0F71AC"
+              stroke-width="10"
+            />
+            <rect class="test" x="0" y="1117" width="1728" height="506.964" />
+          </svg>
+        </div>
+      </main>
+    </div>
+
+    <div id="map">
+      <canvas id="canvas3d"></canvas>
+    </div>
+  </body>
+</html>
